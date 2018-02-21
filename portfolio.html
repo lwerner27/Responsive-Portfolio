@@ -1,70 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Scripts -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <!-- Style -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Lucas Werner</title>
+  <meta charset="UTF-8">
+  <title>Portfolio | Lucas Werner</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Lucas Werner</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li id="portfolio"><a href="#" >Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h1>Portfolio</h1>
-            <a href="#">
-                <div class="image-box image-one">
-                    <h3>Hangman</h3>
-                </div>
-            </a>
-            <a href="#">
-                <div class="image-box image-two">
-                    <h3>RPG Game</h3>   
-                </div>
-            </a>
-            <a href="#">
-                <div class="image-box image-three">
-                    <h3>Trivia Game</h3>    
-                </div>
-            </a>
-            <a href="#">
-                <div class="image-box image-four">
-                    <h3>Rutgers Info Widget</h3>    
-                </div>
-            </a>
-            <a href="#">
-                <div class="image-box image-five">
-                    <h3>Rock Paper Scissors</h3>    
-                </div>
-            </a>
-        </section>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Lucas Werner</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <section>
-            <h1>Connect with Me</h1>
-            <div class="s-links">
-                <a href="#"><img src="./assets/images/github.png" alt=""></a>
-                <a href="#"><img src="./assets/images/linkedin.png" alt=""></a>
-                <a href="#"><img src="./assets/images/stackoverflow.png" alt=""></a>
-            </div>
-        </section>
-    </main>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-    <footer>
-        <h6>&copy; Copyright 2018 Lucas Werner</h6>
-    </footer>
+      <div class="work">
+        <img src="http://www.placepuppy.net/1p/400/250" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="http://www.placepuppy.net/1p/400/250" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="http://www.placepuppy.net/1p/400/250" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="http://www.placepuppy.net/1p/400/250" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="http://www.placepuppy.net/1p/400/250" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
